@@ -14,4 +14,12 @@ describe("Test Roman Numerals", () => {
     expect(convertDecimalToRoman(8)).toBe("VIII");
     expect(convertDecimalToRoman(9)).toBe("IX");
   });
+  test("Check the roman generating algorithm for base 10 two digit numbers", () => {
+    expect(convertDecimalToRoman(10)).toBe("X");
+    expect(convertDecimalToRoman(19)).toBe("XIX");
+    expect(convertDecimalToRoman(22)).toBe("XXII");
+    expect(convertDecimalToRoman(74)).toBe("LXXIV");
+    expect(convertDecimalToRoman(80)).toBe("LXXX");
+    expect(convertDecimalToRoman(95)).toBe("XCV");
+  });
 });
