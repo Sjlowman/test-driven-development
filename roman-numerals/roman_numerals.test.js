@@ -4,6 +4,15 @@ describe("Test Roman Numerals", () => {
   test("Check the pipes", () => {
     expect(convertDecimalToRoman(1)).toBe("I");
   });
+  test("Error if called without an arg", () => {
+    expect(convertDecimalToRoman).toThrow("Number to convert is required");
+  });
+  test("Error if called with non-numeric", () => {
+    expect(() => {
+      convertDecimalToRoman("45");
+    }).toThrow("Number to convert is required");
+  });
+
   test("Check the roman generating algorithm for base 10 units", () => {
     expect(convertDecimalToRoman(2)).toBe("II");
     expect(convertDecimalToRoman(3)).toBe("III");

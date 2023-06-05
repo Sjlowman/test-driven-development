@@ -1,4 +1,6 @@
 function convertDecimalToRoman(num) {
+  if (num === undefined || typeof num !== "number")
+    throw new Error("Number to convert is required");
   const romanPatternArray = [
     "",
     "l",
