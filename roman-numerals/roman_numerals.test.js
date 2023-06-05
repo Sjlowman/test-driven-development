@@ -22,4 +22,12 @@ describe("Test Roman Numerals", () => {
     expect(convertDecimalToRoman(80)).toBe("LXXX");
     expect(convertDecimalToRoman(95)).toBe("XCV");
   });
+  test("Check the roman generating algorithm for base 10 three digit numbers", () => {
+    expect(convertDecimalToRoman(101)).toBe("CI");
+    expect(convertDecimalToRoman(243)).toBe("CCXLIII");
+    expect(convertDecimalToRoman(367)).toBe("CCCLXVII");
+    expect(convertDecimalToRoman(489)).toBe("CDLXXXIX");
+    expect(convertDecimalToRoman(609)).toBe("DCIX");
+    expect(convertDecimalToRoman(976)).toBe("CMLXXVI");
+  });
 });
