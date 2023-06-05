@@ -34,4 +34,10 @@ describe("Test Roman Numerals", () => {
     expect(convertDecimalToRoman(1345)).toBe("MCCCXLV");
     expect(convertDecimalToRoman(2456)).toBe("MMCDLVI");
   });
+  test("Check the roman generating algorithm for cases with 0s to make sure there are no extra spaces etc", () => {
+    expect(convertDecimalToRoman(100)).toBe("C");
+    expect(convertDecimalToRoman(101)).toBe("CI");
+    expect(convertDecimalToRoman(2002)).toBe("MMII");
+    expect(convertDecimalToRoman(3000)).toBe("MMM");
+  });
 });
