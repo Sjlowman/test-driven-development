@@ -30,4 +30,8 @@ describe("Test Roman Numerals", () => {
     expect(convertDecimalToRoman(609)).toBe("DCIX");
     expect(convertDecimalToRoman(976)).toBe("CMLXXVI");
   });
+  test("Check the roman generating algorithm for base 10 four digit numbers up to 3000", () => {
+    expect(convertDecimalToRoman(1345)).toBe("MCCCXLV");
+    expect(convertDecimalToRoman(2456)).toBe("MMCDLVI");
+  });
 });
