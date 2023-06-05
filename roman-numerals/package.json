@@ -1,0 +1,25 @@
+{
+  "name": "roman-numerals",
+  "version": "1.0.0",
+  "description": "Roman numerals kata for test driven development",
+  "main": "roman_numerals.js",
+  "scripts": {
+    "test": "jest test/roman_numerals.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sjlowman/test-driven-development.git"
+  },
+  "author": "Sarah P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sjlowman/test-driven-development/issues"
+  },
+  "homepage": "https://github.com/Sjlowman/test-driven-development#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1"
+  }
+}

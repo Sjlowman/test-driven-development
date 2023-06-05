@@ -1,0 +1,19 @@
+{
+  "name": "bowling-game",
+  "version": "1.0.0",
+  "description": "Bowling game kata for test driven development learning",
+  "main": "bowling_game.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sjlowman/test-driven-development.git"
+  },
+  "author": "Sarah P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sjlowman/test-driven-development/issues"
+  },
+  "homepage": "https://github.com/Sjlowman/test-driven-development#readme"
+}
