@@ -1,10 +1,10 @@
 {
   "name": "bowling-game",
   "version": "1.0.0",
-  "description": "Bowling game kata for test driven development learning",
+  "description": "Bowling game kata for test driven development",
   "main": "bowling_game.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jest bowling_game.test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Sjlowman/test-driven-development/issues"
   },
-  "homepage": "https://github.com/Sjlowman/test-driven-development#readme"
+  "homepage": "https://github.com/Sjlowman/test-driven-development#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1"
+  },
+  "keywords": []
 }
